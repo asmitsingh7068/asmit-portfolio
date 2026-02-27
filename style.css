@@ -134,4 +134,30 @@ footer {
     background: #111;
     color: white;
     padding: 20px;
+
+}
+.hero-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 60px 10%;
+}
+
+.hero-text {
+    flex: 1;
+}
+
+.hero-image {
+    flex: 1;
+    text-align: center;
+}
+
+.hero-image img {
+    width: 280px;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid #00ADB5;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.3);
 }
